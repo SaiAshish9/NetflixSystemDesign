@@ -81,9 +81,22 @@ Application will figure out best video from openConnect using AI and plays that 
 
 ZUUL is a gateway service that provides dynamic routing, monitoring, resilience and security => inbound filter, endpoint filter, outbound filter.
 
-
 1. SHard Traffic
 2. LOAD Test
 3. Test New Service
 4. Filter Bad Service
+
+Beta Testing
+
+Hystrix
+
+Latency and fault tolerant library designed to isolate the points of access to the remote systems and services and third party libraries.
+
+Stop Cascading failures and real time monitoring
+
+<img width="799" alt="Screenshot 2025-04-17 at 2 29 08 PM" src="https://github.com/user-attachments/assets/2d2a485c-916d-493c-96bf-ff20af787886" />
+
+can configure to give a default response if service always fails
+
+
 ```
