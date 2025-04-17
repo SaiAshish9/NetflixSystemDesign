@@ -80,4 +80,10 @@ Application will figure out best video from openConnect using AI and plays that 
 <img width="577" alt="Screenshot 2025-04-17 at 2 20 30 PM" src="https://github.com/user-attachments/assets/9973feea-6b9d-4c5d-9cf6-94fce54ce154" />
 
 ZUUL is a gateway service that provides dynamic routing, monitoring, resilience and security => inbound filter, endpoint filter, outbound filter.
+
+
+1. SHard Traffic
+2. LOAD Test
+3. Test New Service
+4. Filter Bad Service
 ```
