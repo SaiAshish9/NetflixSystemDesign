@@ -73,6 +73,9 @@ Video is breaked into chunks, place into the Queue and they all be placed in the
 
 Source will be converted to different movies, hence we'll have 1000-2000 copies of videos converted to different formats.
 
+Application will figure out best video from openConnect using AI and plays that video.
+
+<img width="540" alt="Screenshot 2025-04-17 at 2 19 43 PM" src="https://github.com/user-attachments/assets/b8b4c80e-25b5-4308-b97a-4fc90aad47f0" />
 
 
 ```
