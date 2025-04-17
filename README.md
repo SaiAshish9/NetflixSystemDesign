@@ -131,5 +131,11 @@ Netflix uses 2 databases:
 
 <img width="499" alt="Screenshot 2025-04-17 at 2 58 16 PM" src="https://github.com/user-attachments/assets/3e899e19-ec6b-4458-9997-703b9d088b4c" />
 
-Netflix has read replicas in each and every nodes.
+Netflix has read replicas in each and every nodes. (Reads vs Writes, 9:1)
+
+<img width="860" alt="Screenshot 2025-04-17 at 3 01 31 PM" src="https://github.com/user-attachments/assets/cc76a907-8ef6-4081-826d-2fee827b7657" />
+
+Live viewing history, compressed viewing history.
+
+Compress the data, uncompress and use it when required,
 ```
