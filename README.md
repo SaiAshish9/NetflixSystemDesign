@@ -142,4 +142,25 @@ Compress the data, uncompress and use it when required,
 <img width="442" alt="Screenshot 2025-04-17 at 3 04 06 PM" src="https://github.com/user-attachments/assets/f4302324-8d8c-4282-ab34-8e0fefc7c373" />
 
 Netflix produces 500B events and 1.3PB everyday.
+
+All the logs from different parts of a distributed system will be sent to chukwa where we can do monitoring like S3 and kafka. Copy of data is sent to kafka.
+
+
+from kafka to s3 and ES, Apache samza does the routing.
+
+Elastic Search:
+=> 1500 Clusters
+=> 3500 Instances
+
+APM all the events happening for that user.
+
+
+How Netflix is using Spark and ML to do recommendations and all:
+1. Sorting
+2. Relevance
+3. Row Selection
+
+Spark Models.
+
+When user loads front page, Netflix can decide what to show to the user.
 ```
