@@ -98,5 +98,29 @@ Stop Cascading failures and real time monitoring
 
 can configure to give a default response if service always fails
 
+MicroServices
+=> Critical
+
+User should be able to access those features and make them highly available.
+
+=> Stateless
+=> More Reliable
+
+<img width="499" alt="Screenshot 2025-04-17 at 2 48 37 PM" src="https://github.com/user-attachments/assets/b22ca58f-5d81-4812-8d3b-6660bea8046a" />
+
+Netflix have built their own custom caching layer called EV Cache.
+
+<img width="437" alt="Screenshot 2025-04-17 at 2 51 27 PM" src="https://github.com/user-attachments/assets/4eb92149-6bda-4879-9eaf-aa240246feee" />
+
+Memcached DB
+
+Read will happen only from the cache server
+
+Advantages of having caching layers in the system:
+1. Throughput 
+2. Latency
+3. Cost
+
+
 
 ```
