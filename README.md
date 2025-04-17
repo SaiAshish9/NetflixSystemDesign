@@ -1,4 +1,4 @@
-```
+ ```
 1. More than 125 Million Subscribers,
 2. Presence in more than 200+ countries.
 
@@ -163,4 +163,27 @@ How Netflix is using Spark and ML to do recommendations and all:
 Spark Models.
 
 When user loads front page, Netflix can decide what to show to the user.
+
+Movie Recommendation System =>
+1. Collaborative Filtering
+2. Content Based
+
+
+Open Connect =>
+
+Free of charge
+High Availability with redundant components
+
+125 millions == 10TB/sec
+Small OCA
+Big OCA
+
+How does Netflix figure out what content to be cached at which server:
+Caching Content
+Popular Content
+Historical Viewing Pattern
+
+Netflix uses consistent hashing inside OpenConnect.
+
+Route53 for DNS resolution, Autoscaling for scaling infrastructure.
 ```
