@@ -121,6 +121,10 @@ Advantages of having caching layers in the system:
 2. Latency
 3. Cost
 
+Netflix heavily uses caching layer to save money or SSD in case of RAM.
+
+SSD sits in between the harddisk and RAM and hence its better in comparison to having more RAM.
+
 
 
 ```
