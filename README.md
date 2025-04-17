@@ -138,4 +138,8 @@ Netflix has read replicas in each and every nodes. (Reads vs Writes, 9:1)
 Live viewing history, compressed viewing history.
 
 Compress the data, uncompress and use it when required,
+
+<img width="442" alt="Screenshot 2025-04-17 at 3 04 06 PM" src="https://github.com/user-attachments/assets/f4302324-8d8c-4282-ab34-8e0fefc7c373" />
+
+Netflix produces 500B events and 1.3PB everyday.
 ```
