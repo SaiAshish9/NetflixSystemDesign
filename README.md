@@ -125,6 +125,11 @@ Netflix heavily uses caching layer to save money or SSD in case of RAM.
 
 SSD sits in between the harddisk and RAM and hence its better in comparison to having more RAM.
 
+Netflix uses 2 databases:
+1. RDBMS
+2. Cassandra
 
+<img width="499" alt="Screenshot 2025-04-17 at 2 58 16 PM" src="https://github.com/user-attachments/assets/3e899e19-ec6b-4458-9997-703b9d088b4c" />
 
+Netflix has read replicas in each and every nodes.
 ```
