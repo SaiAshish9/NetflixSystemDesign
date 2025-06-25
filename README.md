@@ -32,23 +32,23 @@ Apart from OpenConnect, everytging was placed at AWS.
 StartUp speed, run time performance, modularity.
 
 Load is first balanced across the zones first then load is balanced across the instances.
-
+```
 <img width="482" alt="Screenshot 2025-04-17 at 1 53 03 PM" src="https://github.com/user-attachments/assets/cd2b332e-fd44-4562-a1da-289c3c59ccb6" />
-
+```
 2 tier balancing scheme.
 
 Load is balanced using round robin algorithm.
-
+```
 <img width="459" alt="Screenshot 2025-04-17 at 2 04 41 PM" src="https://github.com/user-attachments/assets/aafa6d24-6165-4af0-8964-678ae7b82439" />
-
+```
 Video is transformed into different formats using transcoding and encoding.
 
 <img width="1122" alt="Screenshot 2025-04-17 at 2 06 19 PM" src="https://github.com/user-attachments/assets/a1cea55e-02de-449a-a961-3742b531fc99" />
 
 Transcoding will convert video into different formats optimised for diff. platforms and devices.
-
+```
 <img width="1131" alt="Screenshot 2025-04-17 at 2 09 06 PM" src="https://github.com/user-attachments/assets/b7ef0507-feee-4f2b-baf9-25c619b85b9c" />
-
+```
 Convert the video to different resolutions to make the vieweing experience much better.
 
 1.5 hr movie 50GB
@@ -105,13 +105,14 @@ User should be able to access those features and make them highly available.
 
 => Stateless
 => More Reliable
+```
 
 <img width="499" alt="Screenshot 2025-04-17 at 2 48 37 PM" src="https://github.com/user-attachments/assets/b22ca58f-5d81-4812-8d3b-6660bea8046a" />
-
+```
 Netflix have built their own custom caching layer called EV Cache.
-
+```
 <img width="437" alt="Screenshot 2025-04-17 at 2 51 27 PM" src="https://github.com/user-attachments/assets/4eb92149-6bda-4879-9eaf-aa240246feee" />
-
+```
 Memcached DB
 
 Read will happen only from the cache server
