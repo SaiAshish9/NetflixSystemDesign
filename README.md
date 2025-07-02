@@ -1,7 +1,12 @@
 ```
 1. More than 125 Million Subscribers,
 2. Presence in more than 200+ countries.
+```
 
+
+<img width="1437" alt="Screenshot 2025-07-02 at 3 17 18 PM" src="https://github.com/user-attachments/assets/c10227a3-7325-4cfc-b465-3edcdb763ede" />
+
+```
 Netflix Operates In 2 Clouds:
 1. AWS 
 2. OpenConnect
