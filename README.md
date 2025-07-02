@@ -18,9 +18,11 @@ OpenConnect is Netflix Own CDN placed at different locations to serve the conten
 Avoid data transfer from India to US.
 
 Let's have more servers placed in different countries.
+```
 
 <img width="1084" alt="Screenshot 2025-04-17 at 1 39 22 PM" src="https://github.com/user-attachments/assets/41fddd77-88af-4a3a-8c16-f21d63d30eca" />
 
+```
 We'll have different cache servers which will hold all the different copies of videos in different countries.
 
 Video will be the served from the nearest edge server, less bandwidth will be consumed b/w India and US
@@ -56,7 +58,6 @@ Transcoding will convert video into different formats optimised for diff. platfo
 
 <img width="1131" alt="Screenshot 2025-04-17 at 2 09 06 PM" src="https://github.com/user-attachments/assets/b7ef0507-feee-4f2b-baf9-25c619b85b9c" />
 
-
 ```
 Convert the video to different resolutions to make the vieweing experience much better.
 
@@ -83,11 +84,14 @@ Video is breaked into chunks, place into the Queue and they all be placed in the
 Source will be converted to different movies, hence we'll have 1000-2000 copies of videos converted to different formats.
 
 Application will figure out best video from openConnect using AI and plays that video.
+```
 
 <img width="540" alt="Screenshot 2025-04-17 at 2 19 43 PM" src="https://github.com/user-attachments/assets/b8b4c80e-25b5-4308-b97a-4fc90aad47f0" />
 
 <img width="577" alt="Screenshot 2025-04-17 at 2 20 30 PM" src="https://github.com/user-attachments/assets/9973feea-6b9d-4c5d-9cf6-94fce54ce154" />
 
+
+```
 ZUUL is a gateway service that provides dynamic routing, monitoring, resilience and security => inbound filter, endpoint filter, outbound filter.
 
 1. SHard Traffic
@@ -151,22 +155,22 @@ Netflix has read replicas in each and every nodes. (Reads vs Writes, 9:1)
 Live viewing history, compressed viewing history.
 
 Compress the data, uncompress and use it when required,
+```
 
 <img width="442" alt="Screenshot 2025-04-17 at 3 04 06 PM" src="https://github.com/user-attachments/assets/f4302324-8d8c-4282-ab34-8e0fefc7c373" />
 
+```
 Netflix produces 500B events and 1.3PB everyday.
 
 All the logs from different parts of a distributed system will be sent to chukwa where we can do monitoring like S3 and kafka. Copy of data is sent to kafka.
 
-
-from kafka to s3 and ES, Apache samza does the routing.
+From kafka to s3 and ES, Apache samza does the routing.
 
 Elastic Search:
 => 1500 Clusters
 => 3500 Instances
 
 APM all the events happening for that user.
-
 
 How Netflix is using Spark and ML to do recommendations and all:
 1. Sorting
@@ -180,7 +184,6 @@ When user loads front page, Netflix can decide what to show to the user.
 Movie Recommendation System =>
 1. Collaborative Filtering
 2. Content Based
-
 
 Open Connect =>
 
@@ -197,6 +200,7 @@ Popular Content
 Historical Viewing Pattern
 ```
 
+```
 Netflix uses consistent hashing inside OpenConnect.
 
 Route53 for DNS resolution, Autoscaling for scaling infrastructure.
